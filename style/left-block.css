@@ -1,0 +1,16 @@
+.left-block{
+background-image: url(images/Rectangle\ 2\ \(1\).png);
+    width: 493px;
+    height: 666px;
+    flex-shrink: 0;
+    padding: 48px 0px 84px 32px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1000px) {
+    .left-block{
+        width: 100%;
+        background-size: cover;    
+        padding: 5%;
+    }
+}

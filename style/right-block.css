@@ -1,0 +1,19 @@
+.right-block{
+    width: 520px;
+    height: 623px;
+    flex-shrink: 0;
+    background: #222831;
+    border-radius: 0 25px 25px 0;
+    padding: 55px 55px 62px 50px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:1000px) {
+    .right-block{
+    padding: 5%;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0px;
+    width:100%;
+    justify-content: center;
+   }   
+}
