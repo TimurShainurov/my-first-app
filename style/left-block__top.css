@@ -1,33 +1,33 @@
 .left-block__top{
     display: grid;
     grid-template-rows: 54px 46px 27px;
-    
+   
 }
-.left-block__top--day{
+.left-block__top-day{
     font-family:"Bold", sans-serif;
     font-size: 37px;
 }      
-.left-block__top--date{
+.left-block__top-date{
     flex-shrink: 0;
     font-family: "Medium", sans-serif; 
     font-size: 22px;
 }
-.left-block__top--location{
+.left-block__top-location{
     display: flex;
 }
 
-.left-block__top--location-name {
+.left-block__top-location-name {
     color: #FFF;
     font-family:"SemiBold", sans-serif;
     font-size: 20px;
-    position: relative;
-    top: 3px;
-    left: 8px; 
+    margin-top: 3px;
+    margin-left: 8px; 
 }
 @media screen and (max-width:1000px) {
     .left-block__top{
         justify-content: center;
         justify-items: center;
+        margin-right: 0;
 
     }
 }

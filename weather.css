@@ -6,6 +6,7 @@
 @import url(style/right-block__medium.css);
 @import url(style/right-block__bottom.css);
 
+*,
 *::before,
 *::after {
     box-sizing: border-box;

@@ -1,11 +1,10 @@
 .right-block{
-    width: 520px;
-    height: 623px;
+    min-width: 520px;
+    height: 100%;
     flex-shrink: 0;
     background: #222831;
     border-radius: 0 25px 25px 0;
     padding: 55px 55px 62px 50px;
-    box-sizing: border-box;
 }
 @media screen and (max-width:1000px) {
     .right-block{

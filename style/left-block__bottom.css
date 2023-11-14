@@ -1,18 +1,17 @@
 .left-block__bottom{
     display: grid;
     grid-template-rows: 104px 74px 29px;
-    position: relative;
-    top: 200px; ;
+    margin-top: 200px;
 }
-.left-block__bottom--weather-image{
+.left-block__bottom-weather-image{
     flex-shrink: 0;
 }
-.left-block__bottom--temperature{
+.left-block__bottom-temperature{
     color: #FFF;
     font-family: "Bold", sans-serif;
     font-size: 50px;
 }
-.left-block__bottom--weather{
+.left-block__bottom-weather{
     flex-shrink: 0;
     color: #FFF;
     font-family: "Bold", sans-serif;
