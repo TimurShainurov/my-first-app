@@ -5,6 +5,7 @@ background-image: url("../images/bg-img.png");
     flex-shrink: 0;
     padding: 48px 0px 84px 32px;
 
+
 }
 
 @media screen and (max-width:1000px) {

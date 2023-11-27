@@ -8,6 +8,17 @@
 </head>
 <body>
     <div class="container">
+        <div class="closen_modal">
+            <div class="open_modal">
+                <div> Select location</div>
+                <select class="location" id="loc"></select>
+                <div class="buttons">
+                    <button class="btn_cancel">Cancel</button>
+                    <button class="btn_ok">Ok</button>
+                </div>
+            </div>
+        </div>
+        <div class ="closen_modal-background" ></div>
         <div class="left-block">
            <div class="left-block__top">
             <div class="left-block__top-day">Tuesday</div>
@@ -122,7 +133,7 @@
 
             </div> 
             <div class="right-block__bottom">
-                <div class="right-block__bottom-Change-Location-box">
+                <button class="right-block__bottom-Change-Location-box">
                     <div class="right-block__bottom-Change-Location-box-image">
                         <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M9.96875 13.75C9.96875 10.1429 12.8929 7.21875 16.5 7.21875C20.1071 7.21875 23.0313 10.1429 23.0313 13.75C23.0313 17.3571 20.1071 20.2812 16.5 20.2812C12.8929 20.2812 9.96875 17.3571 9.96875 13.75ZM16.5 9.28125C14.032 9.28125 12.0313 11.282 12.0313 13.75C12.0313 16.218 14.032 18.2188 16.5 18.2188C18.968 18.2188 20.9688 16.218 20.9688 13.75C20.9688 11.282 18.968 9.28125 16.5 9.28125Z" fill="white"/>
@@ -130,7 +141,7 @@
                           </svg>
                     </div>
                     <div class="right-block__bottom-Change-Location">Change Location</div>
-                </div>    
+                </button>   
             </div>
         </div>
     </div>

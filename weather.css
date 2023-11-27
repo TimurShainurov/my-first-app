@@ -5,6 +5,7 @@
 @import url(style/right-block__top.css);
 @import url(style/right-block__medium.css);
 @import url(style/right-block__bottom.css);
+@import url(style/modal.css);
 
 *,
 *::before,

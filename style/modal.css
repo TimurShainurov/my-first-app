@@ -1,0 +1,58 @@
+.closen_modal{
+    display: none ;
+    position: absolute;
+    z-index: 1;
+}
+
+.open_modal{
+    min-width: 480px;
+    min-height: 320px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.50);
+    font-family: "Bold";
+    color: #000;
+    font-size: 30px;
+    padding: 20px 18px 31px 20px;
+}
+
+.location{
+    width: 100%;
+    height: 30px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_cancel{
+    font-family: "SemiBold";
+    color:#FFFFFF;
+    font-size: 20px;
+    border-radius: 10px;
+    background: linear-gradient(91deg, rgba(144, 217, 224, 0.90) 0.2%, rgba(84, 96, 230, 0.90) 100%);
+    margin-top: 200px;
+    width: 184px;
+    height: 53px;           
+} 
+.btn_ok{
+    font-family: "SemiBold";
+    color:#FFFFFF;
+    font-size: 20px;
+    border-radius: 10px;
+    background: linear-gradient(91deg, rgba(144, 217, 224, 0.90) 0.2%, rgba(84, 96, 230, 0.90) 100%);
+    margin-top: 200px;
+    width: 184px;
+    height: 53px; 
+}
+
+.closen_modal-background{
+    /* background: rgba(34, 30, 30, 0.50); */
+    width: 100%;
+    height:  100%;
+    position: fixed;
+    top: 0px;
+}
+
