@@ -1,6 +1,6 @@
-const changeButton = document.querySelector('#changeLocationButton')
-const closenModal = document.querySelector("#closenModal")
-const backgroundModal = document.querySelector("#modalBackground")
+const changeButton = document.getElementById('changeLocationButton')
+const closenModal = document.getElementById("closenModal")
+const backgroundModal = document.getElementById("modalBackground")
 
 closenModal.style.visibility = 'hidden'
 backgroundModal.style.visibility = 'hidden'
@@ -12,7 +12,7 @@ function openModal() {
 
 changeButton.addEventListener('click', openModal)
 
-const cancelButton = document.querySelector('#buttonCancel')
+const cancelButton = document.getElementById('buttonCancel')
 
 function closeModal() {
   closenModal.style.visibility = 'hidden'
